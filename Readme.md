@@ -1,48 +1,4 @@
----
 
-# Getting Started with Rust Projects
-
-## Running a single Rust file
-
-1. Create a Rust source file, e.g., `name.rs`.
-
-2. Compile the file using the Rust compiler (`rustc`):
-
-```bash
-rustc name.rs
-```
-
-3. Run the compiled executable:
-
-* On **Windows**:
-
-```bash
-.\name.exe
-```
-
-* On **Linux/macOS**:
-
-```bash
-./name
-```
-
----
-
-## Understanding the `main` function
-
-- The `main` function is special in Rust.
-- It’s the entry point for every executable Rust program.
-- Similar to `int main()` in C/C++.
-
-Example:
-
-```rust
-fn main() {
-    println!("Hello, world!");
-}
-```
-
----
 
 ## Creating and managing projects with Cargo
 
