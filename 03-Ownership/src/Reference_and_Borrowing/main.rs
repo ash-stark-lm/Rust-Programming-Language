@@ -13,7 +13,7 @@ fn main() {
     immutable_borrowing(&s2);
 
     scope();
-    let x = dangle();
+    //let x = dangle();
     no_dangle();
 }
 /*
@@ -79,14 +79,14 @@ fn scope() {
 
 /*---------------Dangling Reference-------------- */
 
+/*
 fn dangle() -> &'static String {
     // dangle returns a reference to a String
 
     let s = String::from("hello"); // s is a new String
-    //&s //gives errr-> we return a reference to the String, 
-    
+    &s //gives errr-> we return a reference to the String,
 } //see when function gets completeed it will free up its emmory meaning s would get freed so where would ref_to_s points now -> called dangling reference
-
+*/
 fn no_dangle() -> String {
     let s = String::from("hello");
 
