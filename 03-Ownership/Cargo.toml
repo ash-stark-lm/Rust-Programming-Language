@@ -1,0 +1,22 @@
+[package]
+name = "ownership" 
+version = "0.1.0"
+edition = "2024"
+
+# This section is for the default `main.rs` binary
+[[bin]]
+name = "ownership" 
+path = "src/Ownership/main.rs"
+
+# This section is for your new binary file
+[[bin]]
+name = "data_interaction"
+path = "src/data_interaction.rs" 
+
+[[bin]]
+name = "ownership_and_interaction"
+path = "src/ownership_and_interaction.rs" 
+
+[[bin]]
+name = "Reference_and_Borrowing"
+path = "src/Reference_and_Borrowing/main.rs"
