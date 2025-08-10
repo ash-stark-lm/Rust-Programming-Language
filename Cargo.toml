@@ -1,0 +1,6 @@
+[workspace]
+members = [
+    "01-Input-Output/Hello",
+    "01-Input-Output/Take_Input",
+    "02-Basics",
+]

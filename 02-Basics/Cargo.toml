@@ -1,0 +1,25 @@
+# 02-Basics/Cargo.toml
+[package]
+name = "basics"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = "data_types"
+path = "Data-Types/src/main.rs"
+
+[[bin]]
+name = "functions"
+path = "Function-Rust/src/main.rs"
+
+[[bin]]
+name = "if_else"
+path = "If-Else/src/main.rs"
+
+[[bin]]
+name = "loops"
+path = "Loops/src/main.rs"
+
+[[bin]]
+name = "variables"
+path = "Variables/src/main.rs"
